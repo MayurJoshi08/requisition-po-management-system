@@ -34,8 +34,8 @@ $prepared_by = strtolower(trim($row['prepared_by']));
 
 $email_list = array(
 
-"mayur joshi" => "it@zetts.info",
-"manager" => "it@zetts.info"
+"mayur joshi" => "joshimayur@gmail.com",
+"manager" => "nobita82123@gmail.com"
 
 );
 
@@ -155,5 +155,6 @@ WHERE code='$code'");
 echo "<h2>Requisition Fully Approved</h2>";
 
 }
+
 
 ?>
