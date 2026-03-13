@@ -37,8 +37,8 @@ $prepared_by = strtolower(trim($row['prepared_by']));
 
 $email_list = array(
 
-"mayur joshi" => "it@zetts.info",
-"manager" => "it@zetts.info"   // testing manager mail
+"mayur joshi" => "joshimayur039@gmail.com",
+"manager" => "nobita82123@gmail.com"   // testing manager mail
 
 );
 
@@ -97,7 +97,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 
 $mail->Username = 'nobita82123@gmail.com';
-$mail->Password = 'pwbytepwskyuzout';
+$mail->Password = 'your app password';
 
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
@@ -170,5 +170,6 @@ window.location='reqsearch.php';
 </script>";
 
 }
+
 
 ?>
